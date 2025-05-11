@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Objective function: f(x) = x^2 + 4x + 4
 def f(x):
@@ -24,7 +25,7 @@ def gradient_descent(x0, lr=0.1, max_iter=50):
 
 
 #Newton's Method
-def newtons_method(x0, maxiter=10):
+def newtons_method(x0, max_iter=10):
     x = x0
     path = [x]
     for _ in range(max_iter):
@@ -37,3 +38,18 @@ def newtons_method(x0, maxiter=10):
 x0 = 10
 gd_path = gradient_descent(x0)
 newton_path = newtons_method(x0)
+
+# Plotting
+x_vals = np.linspace(-10, 10, 400)
+y_vals = f(x_vals)
+
+plt.figure()
+plt.plot(x_vals, y_vals, label='f(x) = x^2 + 4x + 4')
+plt.plot(gd_path, [f(x) for x in gd_path], 'o-', label='Gradient Descent')
+plt.plot(newton_path, [f(x) for x in newton_path], 's-', label="Newton's Method")
+plt.legend()
+plt.title("Optimization using Gradient Descent vs Newton's Method")
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.grid(True)
+plt.show()
