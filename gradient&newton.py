@@ -20,3 +20,8 @@ def gradient_descent(x0, lr=0.1, max_iter=50):
         x = x - lr * grad_f(x)
         path.append(x)
     return path
+
+
+# Initialize and run
+x0 = 10
+gd_path = gradient_descent(x0)
