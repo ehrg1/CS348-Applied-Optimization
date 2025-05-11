@@ -1,34 +1,82 @@
-# CS348-Applied-Optimization
+# CS348: Applied Optimization
 
-This project compares two optimization techniques — **Gradient Descent** and **Newton's Method** — by applying them to a simple quadratic function and visualizing their convergence behavior.
+This repository contains coursework and projects from the CS348: Applied Optimization course. The course focuses on practical applications of optimization techniques across various domains.
 
-## 📌 Objective
+## Table of Contents
 
-- Minimize the function \( f(x) = x^2 + 4x + 4 \)
-- Compare convergence rates of both methods
-- Visualize optimization paths using `matplotlib`
+- [Course Overview](#course-overview)
+- [Projects](#projects)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## 📈 Function Details
+## Course Overview
 
-- Function: `f(x) = x^2 + 4x + 4`
-- Gradient: `f'(x) = 2x + 4`
-- Hessian: `f''(x) = 2`
+CS348: Applied Optimization delves into the implementation and application of optimization algorithms. Students engage in hands-on projects that apply theoretical concepts to real-world problems, enhancing their understanding of optimization techniques.
 
-## 🚀 How to Run
+## Projects
 
-1. Make sure you have Python 3 installed.
-2. Install required packages (if not already installed):
+### 1. [Project Title 1]
+- **Description**: Brief overview of the project.
+- **Techniques Used**: List of optimization techniques applied.
+- **Outcome**: Summary of results or findings.
+
+### 2. [Project Title 2]
+- **Description**: Brief overview of the project.
+- **Techniques Used**: List of optimization techniques applied.
+- **Outcome**: Summary of results or findings.
+
+*Add more projects as necessary*
+
+## Installation
+
+To set up the project environment, follow these steps:
+
+1. Clone the repository:
    ```bash
-    pip install numpy matplotlib
-3. run the script:
+   git clone https://github.com/ehrg1/CS348-Applied-Optimization.git
+````
+
+2. Navigate into the project directory:
+
    ```bash
-  python gradient&newton.py
+   cd CS348-Applied-Optimization
+   ```
 
-## 📊 Output
-1. A plot comparing convergence paths of both methods
-2. Newton’s method reaches the minimum faster
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+After installation, you can run the projects as follows:
+
+1. Navigate to the desired project directory:
+
+   ```bash
+   cd project_directory
+   ```
+
+2. Run the project script:
+
+   ```bash
+   python project_script.py
+   ```
+
+*Ensure that you have the necessary input files as specified in each project's documentation.*
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
 
 
-
-
- 
