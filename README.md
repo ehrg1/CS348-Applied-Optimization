@@ -1,82 +1,36 @@
-# CS348: Applied Optimization
+# CS348-Applied-Optimization
 
-This repository contains coursework and projects from the CS348: Applied Optimization course. The course focuses on practical applications of optimization techniques across various domains.
+This repository contains Python implementations of various optimization algorithms, including Gradient Descent and Newton's Method, developed as part of the CS348: Applied Optimization course.
 
-## Table of Contents
+## 📚 Overview
 
-- [Course Overview](#course-overview)
-- [Projects](#projects)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+The course focuses on practical optimization techniques applicable in machine learning, data science, and engineering. This repository showcases implementations of foundational optimization methods, demonstrating their application and performance.
 
-## Course Overview
+## 🧪 Key Implementations
 
-CS348: Applied Optimization delves into the implementation and application of optimization algorithms. Students engage in hands-on projects that apply theoretical concepts to real-world problems, enhancing their understanding of optimization techniques.
+- **Gradient Descent**: An iterative method for finding the minimum of a function.
+- **Newton's Method**: A root-finding algorithm that uses function values and derivatives.
 
-## Projects
+## 🚀 Getting Started
 
-### 1. [Project Title 1]
-- **Description**: Brief overview of the project.
-- **Techniques Used**: List of optimization techniques applied.
-- **Outcome**: Summary of results or findings.
+To run the scripts:
 
-### 2. [Project Title 2]
-- **Description**: Brief overview of the project.
-- **Techniques Used**: List of optimization techniques applied.
-- **Outcome**: Summary of results or findings.
-
-*Add more projects as necessary*
-
-## Installation
-
-To set up the project environment, follow these steps:
-
-1. Clone the repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/ehrg1/CS348-Applied-Optimization.git
-````
-
-2. Navigate into the project directory:
-
-   ```bash
    cd CS348-Applied-Optimization
    ```
 
-3. Install the required dependencies:
-
+2. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
-
-After installation, you can run the projects as follows:
-
-1. Navigate to the desired project directory:
-
+3. Execute the desired script:
    ```bash
-   cd project_directory
+   python gradient&newton.py
    ```
 
-2. Run the project script:
+## 🧪 Usage
 
-   ```bash
-   python project_script.py
-   ```
-
-*Ensure that you have the necessary input files as specified in each project's documentation.*
-
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
-
-
+Each script is designed to be run independently. For detailed instructions and examples, refer to the comments within the respective Python files.
