@@ -22,6 +22,18 @@ def gradient_descent(x0, lr=0.1, max_iter=50):
     return path
 
 
+
+#Newton's Method
+def newtons_method(x0, maxiter=10):
+    x = x0
+    path = [x]
+    for _ in range(max_iter):
+        x = x - grad_f(x) / hess_f(x)
+        path.append(x)
+    return path
+
+
 # Initialize and run
 x0 = 10
 gd_path = gradient_descent(x0)
+newton_path = newtons_method(x0)
